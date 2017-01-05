@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <com.google.ads.AdView android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        ads:adUnitId="a151d3f64be8484"
+        ads:adSize="BANNER"
+        ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+        ads:loadAdOnCreate="true"/>
+    <TextView  
+        android:id="@+id/txtName"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"/>
+    <TextView  
+        android:id="@+id/txtState"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="No data"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hewan_air" />
+
+</LinearLayout>
